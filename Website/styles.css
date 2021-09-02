@@ -1,0 +1,71 @@
+body {
+  margin: 0%;
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #414345, #232526);
+  overflow-x: hidden;
+  background-position: fixed;
+}
+
+div.menu {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.intro {
+  color: grey;
+  text-align: center;
+}
+
+span.center {
+  text-align: center;
+  display: block;
+}
+
+img.profile-pic {
+  width: 26%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+ul.nav {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+.nav li {
+  font-size: 1.2em;
+  height: 40px;
+  line-height: 40px;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s background-color;
+}
+
+.nav a:link,
+a:visited {
+  color: orange;
+}
+
+.nav a:hover,
+a:active {
+  background-color: orange;
+  color: whitesmoke;
+}
+
+.nav a.active {
+  background-color: rgb(212, 144, 18);
+  color: whitesmoke;
+  cursor: default;
+}
+
+a.kmlink {
+  color: orange;
+  font-size: 3vw;
+}
