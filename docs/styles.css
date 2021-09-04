@@ -3,7 +3,7 @@ body {
   background-color: #a9c9ff;
   background-image: linear-gradient(180deg, #414345, #232526);
   overflow-x: hidden;
-  background-position: fixed;
+  background-position: scroll;
 }
 
 div.menu {
@@ -27,6 +27,16 @@ img.profile-pic {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  img.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
 
 ul.nav {
@@ -68,4 +78,18 @@ a:active {
 a.kmlink {
   color: orange;
   font-size: 3vw;
+}
+
+html.about {
+  height: 100%;
+}
+
+body.about {
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
