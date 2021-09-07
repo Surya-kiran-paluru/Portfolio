@@ -43,6 +43,9 @@ ul.nav {
   margin: 0%;
   padding: 0%;
   list-style: none;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0%;
 }
 
 .nav li {
@@ -56,23 +59,6 @@ ul.nav {
   text-decoration: none;
   text-align: center;
   transition: 0.3s background-color;
-}
-
-.nav a:link,
-a:visited {
-  color: orange;
-}
-
-.nav a:hover,
-a:active {
-  background-color: orange;
-  color: whitesmoke;
-}
-
-.nav a.active {
-  background-color: rgb(212, 144, 18);
-  color: whitesmoke;
-  cursor: default;
 }
 
 a.kmlink {
@@ -92,4 +78,96 @@ body.about {
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.about h1 {
+  color: whitesmoke;
+  font-size: 3vw;
+}
+
+.about p {
+  font-size: 1.5vw;
+  /*color: whitesmoke;*/
+  background: linear-gradient(to bottom, white, orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.about a:link,
+a:visited {
+  text-decoration: none;
+  color: orange;
+}
+
+.about a:hover,
+a:active {
+  transition: color 0.25s ease-out;
+  -webkit-transition: color 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  color: tomato;
+}
+
+.skills-body {
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+pre.skills {
+  font-size: 1vw;
+  /*color: whitesmoke;*/
+  background: linear-gradient(to bottom, white, orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-align: left;
+}
+
+.skills-body h1 {
+  color: whitesmoke;
+}
+
+pre.cert {
+  color: whitesmoke;
+  font-size: 1vw;
+}
+
+a.verlin:link,
+a.verlin:visited {
+  color: orange;
+  text-decoration: none;
+}
+
+a.verlin:hover,
+a.verlin:active {
+  transition: color 0.25s ease-out;
+  -webkit-transition: color 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  color: tomato;
+}
+
+.nav a:link,
+a:visited {
+  color: orange;
+}
+
+.nav a:hover,
+a:active {
+  background-color: orange;
+  color: whitesmoke;
+}
+
+.nav a.active {
+  background-color: rgb(212, 144, 18);
+  color: whitesmoke;
+  cursor: default;
 }
