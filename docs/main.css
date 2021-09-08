@@ -122,7 +122,7 @@ a:active {
 }
 
 pre.skills {
-  font-size: 1.5em;
+  /*font-size: 1.5em;
   /*color: whitesmoke;*/
   background: linear-gradient(to bottom, white, orange);
   -webkit-background-clip: text;
@@ -138,7 +138,7 @@ pre.skills {
 
 pre.cert {
   color: whitesmoke;
-  font-size: 1.5em;
+  /*font-size: 1.5em;*/
 }
 
 a.verlin:link,
